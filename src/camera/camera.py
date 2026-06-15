@@ -3,10 +3,12 @@ import cv2
 
 class Camera:
 
-    def __init__(self,
-                 camera_index=0,
-                 width=640,
-                 height=480):
+    def __init__(
+        self,
+        camera_index=0,
+        width=640,
+        height=480
+    ):
 
         self.cap = cv2.VideoCapture(camera_index)
 
